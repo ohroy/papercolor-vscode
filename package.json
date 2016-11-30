@@ -1,0 +1,22 @@
+{
+    "name": "papercolor-vscode",
+    "displayName": "papercolor-vscode",
+    "description": "the popular color theme from VIM to VsCode",
+    "version": "0.0.1",
+    "publisher": "rozbo",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "papercolor-vscode",
+                "uiTheme": "vs-light",
+                "path": "./themes/papercolor-vscode-light.tmTheme"
+            }
+        ]
+    }
+}
