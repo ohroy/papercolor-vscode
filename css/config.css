@@ -1,0 +1,6 @@
+.rozbo-papercolor-vscode-themes-papercolor-vscode-light-tmTheme .monaco-workbench>.activitybar>.content {
+    background-color: #007acc !important;
+}
+.rozbo-papercolor-vscode-themes-papercolor-vscode-light-tmTheme .monaco-workbench > .part.statusbar {
+  border-top: 1px solid #008aff !important;
+}

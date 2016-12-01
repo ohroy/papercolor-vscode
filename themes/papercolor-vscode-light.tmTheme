@@ -24,6 +24,8 @@
 				<string>#B6E9ED</string>
 				 <key>selectionBorder</key>
                 <string>#222218</string>
+								<key>guide</key>
+				<string>#AAAAAA</string>
 				                <key>activeGuide</key>
                 <string>#9d550fb0</string>
 
