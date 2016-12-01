@@ -5,6 +5,10 @@
 <dict>
 	<key>name</key>
 	<string>papercolor-vscode</string>
+	<key>author</key>
+	<string>rozbo</string>
+	<key>comment</key>
+	<string>papercolor-vscode</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -543,6 +547,125 @@
 				<string>#262626</string>
 			</dict>
 		</dict>
+<!-- Markdown support. -->
+<!--
+pink:#00afaf
+-->
+<!--#号,标题-->
+		<dict>
+            <key>name</key>
+            <string>Markdown Titles</string>
+            <key>scope</key>
+            <string>markup.heading.markdown.punctuation.definition, markdown.entity.name.section</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+				<key>foreground</key>
+                <string>#d70087</string>
+            </dict>
+        </dict>
+		<dict>
+            <key>name</key>
+            <string>inline</string>
+            <key>scope</key>
+            <string>markup.markdown.meta.paragraph.inline</string>
+            <key>settings</key>
+            <dict>
+				<key>foreground</key>
+                <string>#5f8700</string>
+            </dict>
+        </dict>
+        		<dict>
+            <key>name</key>
+            <string>markdown.meta.separator</string>
+            <key>scope</key>
+            <string>markdown.meta.separator</string>
+            <key>settings</key>
+            <dict>
+				<key>foreground</key>
+                <string>#bcbcbc</string>
+            </dict>
+        </dict>
+
+                <dict>
+            <key>name</key>
+            <string>Markdown bold stars</string>
+            <key>scope</key>
+            <string>punctuation.definition.bold.markdown, punctuation.definition.italic.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#508aaa</string>
+            </dict>
+        </dict>
+                <dict>
+            <key>name</key>
+            <string>Markdown link title braces</string>
+            <key>scope</key>
+            <string>punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#508aaa</string>
+            </dict>
+        </dict>
+               <dict>
+            <key>name</key>
+            <string>Markdown bold/italic</string>
+            <key>scope</key>
+            <string>markup.italic.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Markdown bold/italic</string>
+            <key>scope</key>
+            <string>markup.bold.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+                <dict>
+            <key>name</key>
+            <string>GitGutter deleted</string>
+            <key>scope</key>
+            <string>markup.deleted.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#e61f44</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>GitGutter inserted</string>
+            <key>scope</key>
+            <string>markup.inserted.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a7da1e</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>GitGutter changed</string>
+            <key>scope</key>
+            <string>markup.changed.git_gutter</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f7b83d</string>
+            </dict>
+        </dict>
 	</array>
 	<key>uuid</key>
 	<string>60272d78-b6ed-11e6-80f5-76304dec7eb7</string>
