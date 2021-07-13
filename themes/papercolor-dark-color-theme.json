@@ -4,7 +4,8 @@
 	"colors": {
 		"editor.background": "#1c1c1c",
 		"editor.foreground": "#d0d0d0",
-		"activityBarBadge.background": "#1c1c1c",
+		"editorCursor.foreground":"#d0d0c0",
+		"editor.selectionBackground": "#883b3b",
 		"sideBarTitle.foreground": "#d0d0d0"
 	},
 	"tokenColors": [
