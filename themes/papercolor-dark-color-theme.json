@@ -1,0 +1,152 @@
+{
+	"name": "papercolor-vscode",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#1c1c1c",
+		"editor.foreground": "#d0d0d0",
+		"activityBarBadge.background": "#1c1c1c",
+		"sideBarTitle.foreground": "#d0d0d0"
+	},
+	"tokenColors": [
+		{
+			"name": "keyword",
+			"scope": [
+				"keyword",
+				"storage.modifier",
+			],
+			"settings": {
+				"foreground": "#d7005f"
+			}
+		},
+		{
+			"name": "namespace",
+			"scope": [
+				"variable",
+				"entity.name.variable",
+				"entity.name.type.namespace",
+				"entity.name.type.class",
+				"entity.name.type.enum",
+				"punctuation.terminator.statement",
+				"storage.type",
+				// support json and css
+				"support.type.property-name",
+				// "support.type",
+			],
+			"settings": {
+				"foreground": "#d7875f"
+			}
+		},
+		{
+			"name": "modifier",
+			"scope": [
+				"entity.name.function",
+				// css
+				"entity.other.attribute-name",
+			],
+			"settings": {
+				"foreground": "#3e999f"
+			}
+		},
+		{
+			"name": "Line comment",
+			"scope": [
+				"comment.line.double-slash",
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"name": "doc tag",
+			"scope": [
+				"meta.tag",
+			],
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "",
+			"scope": [
+				"comment.block",
+			],
+			"settings": {
+				"foreground": "#629755",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "",
+			"scope": [
+				"string",
+			],
+			"settings": {
+				"foreground": "#5f8700"
+			}
+		}
+		,
+		{
+			"name": "",
+			"scope": [
+				"constant.numeric",
+			],
+			"settings": {
+				"foreground": "#6897bb"
+			}
+		}
+		//		
+		,
+		{
+			"name": "",
+			"scope": [
+				"variable.other.object.property",
+			],
+			"settings": {
+				"foreground": "#9876aa"
+			}
+		}
+		,
+		{
+			"name": "",
+			"scope": [
+				"variable.other.readwrite",
+			],
+			"settings": {
+				"fontStyle":"underline"
+			}
+		}
+		,
+		{
+			"name": "",
+			"scope": [
+				"constant.language",
+			],
+			"settings": {
+				"foreground": "#afdf00"
+			}
+		}
+		,
+		{
+			"name": "",
+			"scope": [
+				"punctuation.parenthesis",
+			],
+			"settings": {
+				"foreground": "#5fafdf"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		//
+		//
+	]
+}
