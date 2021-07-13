@@ -20,6 +20,8 @@ the popular color theme from **VIM** to VsCode.
 ## preview drak
 ![js](https://raw.githubusercontent.com/Rozbo/papercolor-vscode/master/doc/js_dark.png)
 ----
+![ts](https://raw.githubusercontent.com/Rozbo/papercolor-vscode/master/doc/ts_dark.png)
+----
 ![c](https://raw.githubusercontent.com/Rozbo/papercolor-vscode/master/doc/c_dark.png)
 
 ## More Information
