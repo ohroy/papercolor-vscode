@@ -42,6 +42,7 @@
 				"entity.name.function",
 				// css
 				"entity.other.attribute-name",
+				"support.variable.property"
 			],
 			"settings": {
 				"foreground": "#3e999f"
@@ -144,6 +145,15 @@
 			],
 			"settings": {
 				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "",
+			"scope": [
+				"support.function.any-method"
+			],
+			"settings": {
+				"foreground": "#005f87"
 			}
 		},
 		//
